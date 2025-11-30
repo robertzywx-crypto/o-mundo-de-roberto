@@ -243,3 +243,4 @@ btnMapa.onclick = () => {
         log(`- ${c}`);
     });
 };
+
