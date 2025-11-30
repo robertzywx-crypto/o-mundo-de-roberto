@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1b1b2f;
+    color: #dbe6ff;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #bfe1ff;
+    text-align: center;
+}
+
+.output {
+    border: 2px solid #0033aa;
+    padding: 10px;
+    height: 300px;
+    overflow-y: auto;
+    background-color: #0b0b1e;
+    margin-bottom: 20px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+}
+
+#atkBtn { background-color: #1a8cff; color: #fff; }
+#magBtn { background-color: #ff8c1a; color: #fff; }
+#defBtn { background-color: #33cc33; color: #fff; }
+#fugirBtn { background-color: #ff3333; color: #fff; }
+#voltarBtn { background-color: #aaaaaa; color: #000; }
+
+.mapa button {
+    background-color: #5555ff;
+    color: #fff;
+    margin: 5px;
+}
