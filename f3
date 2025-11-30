@@ -226,3 +226,4 @@ btnMapa.onclick = () => {
 
 // Inicializar mapa
 btnMapa.onclick();
+
