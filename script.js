@@ -8,7 +8,7 @@
 // -----------------------------
 // Estado do jogador
 // -----------------------------
-let player = {
+let 
     nome: "Roberto",
     classe: "Espadachim",
     vida: 40,
