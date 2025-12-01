@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>O Mundo de Roberto</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>🏠 O MUNDO DE ROBERTO – O LENDÁRIO GUERREIRO</h1>
+
+    <div id="output"></div>
+
+    <div id="mapa"></div> 
+    
+    <div id="botoes-combate">
+        <button id="atkBtn">Atacar</button>
+        <button id="magBtn">Magia (5 de mana)</button>
+        <button id="defBtn">Defensor</button>
+        <button id="fugirBtn">Fugir</button>
+        <button id="voltarBtn">Mapa</button>
+        
+        <button id="salvarBtn">Salvar Jogo</button>
+        <button id="carregarBtn">Carregar Jogo</button>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
