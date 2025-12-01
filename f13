@@ -525,3 +525,4 @@ if (btnCarregar) btnCarregar.onclick = carregarJogo;
 // Inicia o Jogo
 iniciarJogo();
 
+
