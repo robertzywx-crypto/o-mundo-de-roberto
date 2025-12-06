@@ -580,4 +580,5 @@ html_content = """
 """
 
 # Display the HTML content
+
 HTML(html_content)
