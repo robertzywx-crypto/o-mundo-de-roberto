@@ -17,7 +17,7 @@ const player = {
 const LIMITES = {
     MAX_LEVEL: 50,
     MAX_VIDA: 5000,
-    MAX_MANA: 75
+    MAX_MANA: 100
 };
 
 const magias = {
@@ -54,7 +54,7 @@ const cidades = {
     Shadowfen: {
         historia: "Shadowfen – O Pântano das Sombras, o covil final onde o mal supremo aguarda para extinguir a luz.",
         monstros: [{nome:"Sapo Gigante", vida:90}, {nome:"Serpente Sombria", vida:150}],
-        chefe: {nome:"Lorde das Trevas", vida:5000},
+        chefe: {nome:"Lorde das Trevas", vida:1000},
         historiaPosChefe: `👑 <b>VOCÊ É O CAMPEÃO!</b> 👑<br><br>O 'Lorde das Trevas' se desintegra em poeira cósmica, e o silêncio se instala, profundo e eterno. A escuridão que cobria o Canadá Medieval é finalmente expulsa. Você, Roberto, o Espadachim, completou o impossível. A luz retorna ao mundo por sua causa. Seu nome será cantado em baladas por séculos, pois você não apenas salvou o reino, mas reescreveu o destino. Você é a lenda. O MUNDO DE ROBERTO ESTÁ SALVO!`
     },
     "O Vazio": {
