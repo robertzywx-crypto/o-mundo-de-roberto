@@ -377,7 +377,8 @@ function visitarCidade(nome){
     mostraStatus();
 
     if (nome === "Aethelburg") {
-        log("📜 O velho bibliotecário acena para você com um sorriso no rosto.");
+        log("📜 O velho bibliotecário acena para você... Logo fala: nem todo livro aqui quer ser lido... Alguns preferem observar
+            .");
         log(" 'Bem-vindo, Roberto. Procure informações sobre as outras cidades no menu 'Mapa'.' ");
         desabilitarBotoesCombate();
         
@@ -448,6 +449,7 @@ function iniciarJogo(){
 // Inicializar jogo
 // -----------------------------
 iniciarJogo();
+
 
 
 
