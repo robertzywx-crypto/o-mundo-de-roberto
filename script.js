@@ -377,7 +377,7 @@ function visitarCidade(nome){
     mostraStatus();
 
     if (nome === "Aethelburg") {
-        log("📜 O velho bibliotecário acena para você.");
+        log("📜 O velho bibliotecário acena para você com um sorriso no rosto.");
         log(" 'Bem-vindo, Roberto. Procure informações sobre as outras cidades no menu 'Mapa'.' ");
         desabilitarBotoesCombate();
         
@@ -426,7 +426,7 @@ function iniciarJogo(){
     limpar();
     
     log("=========================================");
-    log("=== BEM-VINDO AO MUNDO DE ROBERTO! ===");
+    log("=== BEM-VINDO AO MUNDO DE Magia! ===");
     log("=========================================");
     log("<br>");
     
@@ -435,7 +435,7 @@ function iniciarJogo(){
     log("<br>"); 
     
     log("❄️ Este é o **Canadá Medieval**, uma terra vasta de gelo, florestas antigas e magia indomável.");
-    log("⚔️ Sua missão, Roberto, o Espadachim Lendário, é libertar a terra e derrotar os tiranos.");
+    log("⚔️ Sua missão, Voce, o Espadachim Lendário, é libertar a terra e derrotar os tiranos.");
     log("👑 Seu ponto de partida é Aethelburg, a Capital pacífica.");
     log("🗺️ Use o botão 'Mapa' para começar sua jornada!");
     log("<br>");
@@ -448,3 +448,4 @@ function iniciarJogo(){
 // Inicializar jogo
 // -----------------------------
 iniciarJogo();
+
