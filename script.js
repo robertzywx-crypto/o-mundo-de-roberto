@@ -1,12 +1,12 @@
 // -----------------------------
-// RPG "O MUNDO DE ROBERTO"
+// RPG "O MUNDO DE Magia"
 // -----------------------------
 
 // -----------------------------
 // Estado do jogador
 // -----------------------------
 const player = {
-    nome: "Roberto",
+    nome: "isaac",
     classe: "Espadachim",
     vida: 40,
     maxVida: 40,
@@ -22,7 +22,7 @@ const player = {
 // -----------------------------
 const LIMITES = {
     MAX_LEVEL: 50,
-    MAX_VIDA: 7000,
+    MAX_VIDA: 5000,
     MAX_MANA: 75
 };
 
@@ -448,4 +448,5 @@ function iniciarJogo(){
 // Inicializar jogo
 // -----------------------------
 iniciarJogo();
+
 
