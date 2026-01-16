@@ -1,5 +1,5 @@
 // -----------------------------
-// RPG "O MUNDO DE Magia"
+// RPG "O MUNDO DE MAGIA"
 // -----------------------------
 
 // -----------------------------
@@ -448,5 +448,6 @@ function iniciarJogo(){
 // Inicializar jogo
 // -----------------------------
 iniciarJogo();
+
 
 
